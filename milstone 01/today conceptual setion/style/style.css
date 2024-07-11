@@ -52,5 +52,15 @@
     align-items: center;
 }
 .one{
-
+ background-color: #e1ffdd;
+ border-radius: 100px 100px 0 0;
+ gap: 20px;
+}
+.two{
+    background-color: #e1ffdd;
+   
+}
+.three{
+    background-color: #e1ffdd;
+    border-radius: 100px 100px 0 0;
 }
