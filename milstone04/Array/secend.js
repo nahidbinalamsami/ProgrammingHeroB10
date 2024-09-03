@@ -4,4 +4,3 @@
 // console.log(place);
 const fruits = ['mango', 'orange']
 console.log(fruits)
-git hub kena pataiyom
