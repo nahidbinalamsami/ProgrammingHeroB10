@@ -16,6 +16,7 @@
             <li class="item">Doloremque, obcaecati similique!</li>
             <li class="item">Numquam, magni corrupti.</li>
         </ul>
+        <button id="btn-add-item">Add Item</button>
     </section>
     <script>
         const items = document.getElementsByClassName('item')
@@ -24,7 +25,12 @@
             event.target.parentNode.removeChild(event.target)
            })
        }
-        
+        document.getElementById('btn-add-item').addEventListener('click',function (){
+            const listContainer = document.getElementById('list-container');
+            const li = document.createElement('li')
+            li.innerText = 'Brand New Item Added'
+            listContainer.appendChild(li);
+        } )
     </script>
 </body>
 </html>
